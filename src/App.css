@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.gredient {
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  
+}
+
+
+
+.btn-nav{
+  background: linear-gradient(180deg, #f7de03 -67.82%, #ffa620);
+}
