@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from "./components/Navbar"
-import Header from "./components/Header"
+import Transfrom from "./components/Transfrom"
 
 
 import './App.css'
@@ -13,6 +13,7 @@ function App() {
       <div>
         <Navbar></Navbar>
         <Header></Header>
+        <Transform></Transform>
       </div>
 
     </>
