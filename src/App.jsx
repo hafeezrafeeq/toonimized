@@ -12,8 +12,7 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
-        <Header></Header>
-        <Transform></Transform>
+        <Transfrom></Transfrom>
       </div>
 
     </>
