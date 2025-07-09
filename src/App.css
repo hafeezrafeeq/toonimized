@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 
 
 body {
@@ -46,3 +45,21 @@ body {
     background: linear-gradient(228.48deg, rgb(242, 236, 59) 20.3%, rgb(128, 249, 192) 96.91%)
     
 }
+
+.icone-text-color{
+color: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  
+
+}
+
+.btn-color {
+  background: linear-gradient(rgb(148, 25, 223), rgb(75, 25, 218));
+  color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Appbar() {
     return (
         <div className="flex justify-center">
@@ -6,14 +8,14 @@ function Appbar() {
 
                     <div><img className="w-58" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600086643/Logo_hafewu.png" alt="img" /></div>
 
-                    <div>
+                    <nav>
                         <ul className="flex gap-10 raleway font-bold text-lg ">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Artists</a></li>
-                            <li><a href="">FAQ</a></li>
+                            <Link to="/">Home</Link>
+                            <Link to="/gallery">Gallery</Link>
+                            <Link to="/articts">Articts</Link>
+                            <Link to="/faq">FAQ</Link>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
                 <div className="raleway text-stone-800 font-bold text-8xl mt-35  p-25" >
                     <h1>Cartoonize Yourself</h1>

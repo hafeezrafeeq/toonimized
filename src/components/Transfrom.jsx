@@ -26,72 +26,122 @@ function Transfrom() {
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center gap-20 mt-20 flex-wrap">
+                <div className="flex justify-center  gap-20 mt-20 flex-wrap">
 
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/pen_zoev8o.png" alt="img" /></div>
-                    </div>
-
-
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/paint_p1uu9k.png" alt="img" /></div>
-                    </div>
-
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087430/Home/cup_qxxjsf.png" alt="img" /></div>
-                    </div>
-
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087430/Home/dollar_fistyv.png" alt="img" /></div>
-                    </div>
-
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/tick_uttxfe.png" alt="img" /></div>
-                    </div>
-
-                    <div className="iconCircle rounded-full flex flex-center items-center ">
-                        <div className="bg-green-200 p-4 rounded-full m-auto" ><img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/truck_i8zefe.png" alt="img" /></div>
-                    </div>
-
-                </div>
-
-
-                <div>
                     <div>
-                        <h1>4259+</h1>
-                        <h2>Drawings</h2>
+                        <div className="iconCircle rounded-full flex flex-center items-center ">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/pen_zoev8o.png" alt="img" />
+                            </div>
+                        </div>
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>4259+</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Drawings</h2>
+                        </div>
                     </div>
 
-                     <div>
-                        <h1>27+</h1>
-                        <h2>Incredible Artists</h2>
+
+                    <div>
+                        <div className="iconCircle rounded-full flex flex-center">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/paint_p1uu9k.png" alt="img" />
+                            </div>
+                        </div>
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>27+</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Incredible Artists</h2>
+                        </div>
                     </div>
 
-                     <div>
-                        <h1>95%</h1>
-                        <h2>Customer Satisfaction</h2>
+                    <div>
+                        <div className="iconCircle rounded-full flex flex-center  ">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087430/Home/cup_qxxjsf.png" alt="img" />
+                            </div>
+                        </div>
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>95%</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Customer Satisfaction</h2>
+                        </div>
+
                     </div>
 
-                     <div>
-                        <h1>100%</h1>
-                        <h2>Money Back Guarantee</h2>
+                    <div>
+                        <div className="iconCircle rounded-full flex flex-center">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087430/Home/dollar_fistyv.png" alt="img" />
+                            </div>
+                        </div>
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>100%</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Money Back</h2>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div className="iconCircle rounded-full flex flex-center ">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/tick_uttxfe.png" alt="img" />
+                            </div>
+                        </div>
+
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>4259+</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Drawings</h2>
+                        </div>
+
                     </div>
 
-                     <div>
-                        <h1>4259+</h1>
-                        <h2>Drawings</h2>
-                    </div>
+                    <div>
+                        <div className="iconCircle rounded-full flex flex-center  ">
+                            <div className="bg-green-50 p-4 rounded-full m-auto" >
+                                <img src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087431/Home/truck_i8zefe.png" alt="img" />
 
-                     <div>
-                        <h1>4259+</h1>
-                        <h2>Drawings</h2>
-                    </div>
-                     <div>
-                        <h1>4259+</h1>
-                        <h2>Drawings</h2>
-                    </div>
+                            </div>
+                        </div>
+                        <div className="text-center raleway text-stone-50 font-bold mt-4">
+                            <h1 className="text-4xl font-bold bg-clip-text text-transparent"
+                                style={{
+                                    backgroundImage: 'linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%)',
+                                    WebkitBackgroundClip: 'text',
+                                    WebkitTextFillColor: 'transparent',
+                                }}>4259+</h1>
+                            <h2 className="text-1xl w-26 mt-2 text-lime-">Drawings</h2>
+                        </div>
 
+                    </div>
                 </div>
+
+                <div className="m-auto flex justify-center mt-20"> 
+                    <button className="btn-color w-60 border-4 rounded-md ">TRY CUSTOMIZATION</button>
+                </div>
+
+
 
             </div>
 

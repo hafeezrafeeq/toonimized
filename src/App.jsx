@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import Navbar from "./components/Navbar"
-import Transfrom from "./components/Transfrom"
-
+import { Routes, Route, Link, BrowserRouter } from 'react-router-dom'
+import Home from './Screens/Home'
+import Gallery from './Screens/Gallery'
+import Articts from './Screens/Articts'
+import FAQ from './Screens/FAQ'
 
 import './App.css'
 
@@ -10,10 +12,20 @@ function App() {
 
   return (
     <>
-      <div>
-        <Navbar></Navbar>
-        <Transfrom></Transfrom>
-      </div>
+
+
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/articts" element={<Articts />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+      </BrowserRouter>
+
+      
+
 
     </>
   )
