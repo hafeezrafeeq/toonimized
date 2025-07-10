@@ -1,98 +1,176 @@
+// import React, { useState } from 'react';
+
+// const cartoonItems = [
+//     'Anime Style',
+//     'Disney Style',
+//     'Pixar Look',
+//     'Marvel Style',
+//     'Classic Toon',
+// ];
+
+// const sliderImages = [
+//     'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Dragonball1_jjwsxg.png',
+//     'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087655/Home/Southpark1_u3mgqr.png',
+//     'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087652/Home/Family_Guy1_uem0rp.png',
+//     'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Futurama1_sppeoo.png',
+//     'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087651/Home/Simpsons1_uxw7ji.png',
+
+// ];
+
+// const CartoonStyle = () => {
+//     const [currentIndex, setCurrentIndex] = useState(0);
+
+//     const nextSlide = () => {
+//         setCurrentIndex((prevIndex) =>
+//             prevIndex === sliderImages.length - 1 ? 0 : prevIndex + 1
+//         );
+//     };
+
+//     const prevSlide = () => {
+//         setCurrentIndex((prevIndex) =>
+//             prevIndex === 0 ? sliderImages.length - 1 : prevIndex - 1
+//         );
+//     };
+
+//     return (
+//         < >
+//             <div className="gredient w-screen h-auto p-10 md:p-20">
+
+
+//                 {/* Content Area */}
+//                 < div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-10" >
+
+//                     {/* Right: Image Slider */}
+//                     < div className=" custpmizeCircle w-160 h-160 rounded-full items-center m-auto justify-center flex " >
+//                         <div className='flex justify-center items-center '><img
+//                             src={sliderImages[currentIndex]}
+//                             alt="cartoon"
+//                             className='w-80' />
+//                         </div>
+
+//                         {/* Prev Button */}
+//                         <button
+//                             onClick={prevSlide}
+//                             className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white text-black px-3 py-1 rounded-full shadow hover:bg-yellow-300"
+//                         >
+//                             ‹
+//                         </button>
+
+//                         {/* Next Button */}
+//                         <button
+//                             onClick={nextSlide}
+//                             className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white text-black px-3 py-1 rounded-full shadow hover:bg-yellow-300"
+//                         >
+//                             ›
+//                         </button>
+//                     </div>
+//                 </div >
+
+
+//                 {/* Left: Style List */}
+//                 {/* < div className="w-full md:w-1/3" >
+//                         <ul className="space-y-3 text-stone-800 font-medium">
+//                             {cartoonItems.map((item, index) => (
+//                                 <li
+//                                     key={index}
+//                                     className="bg-yellow-100 px-4 py-2 custpmizeCircle hover:bg-yellow-200 transition-colors duration-300 cursor-pointer  h-40 w-40 rounded-full"
+//                                 >
+//                                     {item}
+//                                 </li>
+//                             ))}
+//                         </ul>
+//                     </div> */}
+
+
+
+//                
+//             </div>
+//         </>
+//     );
+// };
+
+// export default CartoonStyle;
+
+
 import React, { useState } from 'react';
 
-const cartoonItems = [
-    'Anime Style',
-    'Disney Style',
-    'Pixar Look',
-    'Marvel Style',
-    'Classic Toon',
-];
-
-const sliderImages = [
-    'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Dragonball1_jjwsxg.png',
-    'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087655/Home/Southpark1_u3mgqr.png',
-    'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087652/Home/Family_Guy1_uem0rp.png',
-    'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Futurama1_sppeoo.png',
-    'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087651/Home/Simpsons1_uxw7ji.png',
-
-];
 
 const CartoonStyle = () => {
+    const itemImages = [
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087973/Home/turn-me-yellow_2x_uguj33.svg',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600088038/Home/turn-me-family_xmefva.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600088038/Home/turn-me-cartman_q7zql9.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600088038/Home/turn-me-goku_f1pdnc.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600088038/Home/turn-me-rick_nb6rpb.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600088040/Home/turn-me-future_uh7oxf.png',
+
+    ];
+
+    const mainSliderImages = [
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Dragonball1_jjwsxg.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087655/Home/Southpark1_u3mgqr.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087652/Home/Family_Guy1_uem0rp.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087653/Home/Futurama1_sppeoo.png',
+        'https://res.cloudinary.com/dapozvnbr/image/upload/v1600087651/Home/Simpsons1_uxw7ji.png',
+    ];
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const nextSlide = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === sliderImages.length - 1 ? 0 : prevIndex + 1
-        );
-    };
-
-    const prevSlide = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? sliderImages.length - 1 : prevIndex - 1
-        );
+    const handleMainClick = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % mainSliderImages.length);
     };
 
     return (
-        < >
-            <div className="gredient w-screen h-auto p-10 md:p-20">
-
-
-                {/* Content Area */}
-                < div className="flex flex-col md:flex-row items-start justify-between gap-10 mt-10" >
-
-                    {/* Right: Image Slider */}
-                    < div className=" md:w-2/3 custpmizeCircle items-center " >
-                        <div className='m-auto flex justify-center items-center '><img
-                            src={sliderImages[currentIndex]}
-                            alt="cartoon"
-                            className='w-80' />
-                        </div>
-
-                        {/* Prev Button */}
-                        <button
-                            onClick={prevSlide}
-                            className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white text-black px-3 py-1 rounded-full shadow hover:bg-yellow-300"
-                        >
-                            ‹
-                        </button>
-
-                        {/* Next Button */}
-                        <button
-                            onClick={nextSlide}
-                            className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white text-black px-3 py-1 rounded-full shadow hover:bg-yellow-300"
-                        >
-                            ›
-                        </button>
-                    </div>
-
-                    {/* Left: Style List */}
-                    < div className="w-full md:w-1/3" >
-                        <h2 className="text-2xl font-bold text-yellow-500 mb-4">Styles</h2>
-                        <ul className="space-y-3 text-stone-800 font-medium">
-                            {cartoonItems.map((item, index) => (
-                                <li
-                                    key={index}
-                                    className="bg-yellow-100 px-4 py-2 rounded hover:bg-yellow-300 transition cursor-pointer"
-                                >
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div >
-
-
-                {/* Section Heading */}
-                <div className="raleway text-stone-800 font-bold text-4xl md:text-6xl w-full md:w-2/3 my-10">
-                    <h1>Choose between popular cartoon styles</h1>
-                    <div className="bg-stone-800 w-40 rounded-lg h-2 mt-4"></div>
-                    <p className="text-stone-800 raleway text-lg md:text-xl font-bold mt-4">
-                        Curious about how the customization is made?
-                    </p>
-                </div>
+        <div className="flex  justify-center gredient">
+            {/* Section Heading */}
+            <div className="raleway text-stone-800 font-bold text-6xl w-160 pt-100">
+                <h1>Choose between popular cartoon styles</h1>
+                <div className="bg-stone-800 w-40 rounded-lg h-2 mt-4"></div>
+                <p className="text-stone-800 raleway text-lg md:text-xl font-bold pb-100">
+                    Curious about how the customization is made?
+                </p>
             </div>
-        </>
+
+            {/* Center Main Circle with Slider */}
+            <div className='relative top-120 , right-20 w-160 h-160 flex justify-center items-center'>
+                <div
+                    className="absolute top-1/8  l m-auto w-120 h-120 rounded-full flex justify-center items-center overflow-hidden -translate-x-1/9 -translate-y-1/2 z-10 cursor-pointer custpmizeCircle"
+                    onClick={handleMainClick}
+                >
+                    <div className='flex justify-center items-center'> <img
+                        src={mainSliderImages[currentIndex]}
+                        alt={`Main ${currentIndex}`}
+                        className=" object-cover w-1/2 h-1/2"
+                    /></div>
+                </div>
+
+                {/* 8 Item Circles in Circle Layout */}
+                {itemImages.map((imgSrc, i) => {
+                    const angle = (190 / itemImages.length) * i;
+                    return (
+                        <div
+                            key={i}
+                            className="absolute w-60 rounded-full overflow-hidden"
+                            style={{
+                                top: '0%',
+                                left: '50%',
+                                transform: `translate(-50%, 0) rotate(${angle}deg) translateY(-360px) rotate(-${angle}deg)`,
+                            }}
+                        >
+                            <img
+                                src={imgSrc}
+                                alt={`item-${i}`}
+                                className="w-full mt-2 h-full object-cover"
+                            />
+                        </div>
+                    );
+                })}
+            </div>
+
+
+        </div>
     );
 };
 
 export default CartoonStyle;
+

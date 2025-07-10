@@ -4,7 +4,7 @@ function Appbar() {
     return (
         <div className="flex justify-center">
             <div className="flex flex-col gredient  w-3/4">
-                <div className="flex justify-between  gredient p-8 items-center  ">
+                <div className="flex justify-between  gredient-nav p-8 items-center  ">
 
                     <div><img className="w-58" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600086643/Logo_hafewu.png" alt="img" /></div>
 

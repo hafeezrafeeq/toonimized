@@ -4,8 +4,8 @@ function Transfrom() {
             <div className="bg-stone-800">
                 <div className=" flex justify-betWeen items-center">
                     <div className="w-1/2">
-                        <div className="absolute inset-0 top-270 + left-10 custpmizeCircle absolute "></div>
-                        <div><img className="absolute inset-0 top-290  w-120 m-20" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087154/Home/Ellipse_7_uxz08y.png" alt="img" /> </div>
+                        <div className="absolute inset-0 top-270 + left-10 custpmizeCircle w-120 h-120 rounded-full "></div>
+                        <div><img className="absolute inset-0 top-290  w-100 m-20" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600087154/Home/Ellipse_7_uxz08y.png" alt="img" /> </div>
 
                     </div>
 

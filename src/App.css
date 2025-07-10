@@ -20,6 +20,11 @@ body {
 
 }
 
+.gredient-nav {
+  background: linear-gradient(228.48deg, #bdb930 20.3%, #80f9c0 96.91%);
+
+}
+
 
 
 .btn-nav {
@@ -30,9 +35,6 @@ body {
 
 .custpmizeCircle {
   left: 7vw;
-  width: 31vw;
-  height: 31vw;
-  border-radius: 15rem;
   background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
   box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 10px 10px 20px rgba(0, 0, 0, .45);
 }
