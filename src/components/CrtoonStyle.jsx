@@ -38,7 +38,7 @@ const CartoonStyle = () => {
                 </p>
             </div>
 
-            {/* Center Main Circle with Slider */}
+      
             <div className='relative top-120 , right-20 w-160 h-160 flex justify-center items-center'>
                 <div
                     className="absolute top-1/8  l m-auto w-120 h-120 rounded-full flex justify-center items-center overflow-hidden -translate-x-1/9 -translate-y-1/2 z-10 cursor-pointer custpmizeCircle"
