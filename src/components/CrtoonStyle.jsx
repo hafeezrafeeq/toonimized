@@ -34,7 +34,7 @@ const CartoonStyle = () => {
                 <h1>Choose between popular cartoon styles</h1>
                 <div className="bg-stone-800 w-40 rounded-lg h-2 mt-4"></div>
                 <p className="text-stone-800 raleway text-lg md:text-xl font-bold pb-100">
-                    Curious about how the customization is made?
+                    Curious About how the customization is made?
                 </p>
             </div>
 
