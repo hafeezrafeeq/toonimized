@@ -42,7 +42,7 @@ function Appbar() {
 
                     <div className="flex flex-col">
                         <img className="w-full " src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600086924/Home/home_i1wlpb.png" alt="img" />
-                        <img className="w-1/2 absolute top-63 + right-1" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600085486/Home/GREENportalImp.new_1_3_3_jykcsl.png" alt="" />
+                        <img className="w-1/2 absolute top-63  right-1" src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600085486/Home/GREENportalImp.new_1_3_3_jykcsl.png" alt="" />
                     </div>
                 </div>
             </div>

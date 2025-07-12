@@ -4,6 +4,8 @@ import Home from './Screens/Home'
 import Gallery from './Screens/Gallery'
 import Articts from './Screens/Articts'
 import FAQ from './Screens/FAQ'
+import Login from './Screens/Login'
+import Loading from './Screens/loading'
 
 import './App.css'
 
@@ -17,7 +19,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/loading" element={<Loading />} />          
+          <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/articts" element={<Articts />} />
           <Route path="/faq" element={<FAQ />} />

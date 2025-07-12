@@ -28,7 +28,7 @@ const CartoonStyle = () => {
     };
 
     return (
-        <div className="flex  justify-center gredient">
+        <div className="flex  justify-center gredient shadow-lg">
             {/* Section Heading */}
             <div className="raleway text-stone-800 font-bold text-6xl w-160 pt-100">
                 <h1>Choose between popular cartoon styles</h1>
