@@ -25,7 +25,7 @@ function works() {
                             <h1 className="pt-18 text-6xl raleway font-bold"> 2</h1>
                         </div>
                         <p className=" text-2xl font-bold text-start raleway">Single, or...?</p>
-                        <p className=" raleway w-40 text-sm text-start font-bold">Choose Number of people and pets to be drawn</p>
+                        <p className=" raleway w-40 text-sm text-start font-bold">Choose Number of People and pets to be drawn</p>
                     </div>
                     <div>
                         <div className="custpmizeCircle rounded-full w-30 h-40 mt-180 ml-20">
