@@ -137,7 +137,7 @@ function Transfrom() {
                     </div>
                 </div>
 
-                <div className="m-auto flex justify-center mt-20"> 
+                <div className="m-auto flex justify-center p-40"> 
                     <button className="btn-color w-60 border-4 rounded-md ">TRY CUSTOMIZATION</button>
                 </div>
 

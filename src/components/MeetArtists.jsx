@@ -1,7 +1,7 @@
 function MeetArtists() {
     return (
         <>
-            <div className="flex justify-center items-start gredient shadow-lg absolute top-1550">
+            <div className="flex justify-center items-start gredient shadow-lg absolute top-1600">
                 <div className="raleway text-stone-800  font-bold text-7xl  w-full h-full p-25" >
                     <h1>Meet The Amazing Artists</h1>
                     <div className=" w-40 rounded-lg h-2 "></div>

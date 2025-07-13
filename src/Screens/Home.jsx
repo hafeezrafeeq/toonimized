@@ -6,6 +6,7 @@ import Works from '../components/works';
 import Opinions from '../components/Opinions';
 import MeetArtists from '../components/MeetArtists'
 import Discounts from '../components/discounts'
+import Footer from '../components/Footer'
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
       <Opinions />
       <MeetArtists />
       <Discounts />
+      <Footer />
     </>
   )
 

@@ -23,15 +23,15 @@ function Opinions() {
 
     return (
         <>
-            <div className="bg-stone-800 pb-10 items-start">
-                <div className=" flex justify-around  pt-40 pb-60">
+            <div className="bg-stone-800 pb-10 items-center">
+                <div className=" flex justify-around  pt-40 pb-60 ">
 
 
-                    <div className="flex flex-col    ">
-                        <div className="custpmizeCircle w-20 h-20 rounded-full"></div>
-                        <img className=" w-90 absolute top-1300" src="https://toonimized.netlify.app/static/media/shirtDesign.ae2a0493.png" alt="" />
-                        <img className=" w-80 absolute top-1350 z-2 mt-30" src="https://toonimized.netlify.app/static/media/mobileCover.9c27fff0.png" alt="" />
-                        <img className=" w-90 absolute z-1 top-1450 " src="https://toonimized.netlify.app/static/media/bookCover.4576bcbd.png" alt="" />
+                    <div className="flex flex-col  mr-40  ">
+                        <div className="custpmizeCircle absolute top-1342  right-290 w-20 h-20 rounded-full"></div>
+                        <img className=" w-90 absolute top-1350" src="https://toonimized.netlify.app/static/media/shirtDesign.ae2a0493.png" alt="" />
+                        <img className=" w-80 absolute top-1400 z-2 mt-30" src="https://toonimized.netlify.app/static/media/mobileCover.9c27fff0.png" alt="" />
+                        <img className=" w-90 absolute z-1 top-1500 " src="https://toonimized.netlify.app/static/media/bookCover.4576bcbd.png" alt="" />
 
                     </div>
 
@@ -88,12 +88,11 @@ function Opinions() {
             </div>
 
 
+            <div className="flex justify-center relative bottom-180 z-0">
+                <img src="https://toonimized.netlify.app/static/media/quotes.a635bff8.png" alt="" />
+            </div>
 
 
-
-
-
-            <div className="flex justify-center relative bottom-180 z-0"><img src="https://toonimized.netlify.app/static/media/quotes.a635bff8.png" alt="" /></div>
 
 
 
