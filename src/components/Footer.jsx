@@ -29,7 +29,7 @@ function Footer() {
         <div className="space-y-4 raleway" >
           <h2 className="font-bold">Let’s keep in touch!</h2>
           <p className="text-sm text-gray-400">
-            Join our newsletter to Stay up to date to latest discounts, promotions and orders.
+            Join our newsletter to Stay up to date to latest discounts, Promotions and orders.
           </p>
           <div className="flex">
             <input
