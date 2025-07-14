@@ -7,9 +7,14 @@ import Opinions from '../components/Opinions';
 import MeetArtists from '../components/MeetArtists'
 import Discounts from '../components/discounts'
 import Footer from '../components/Footer'
+import { useEffect } from 'react';
+
+
 
 
 function Home() {
+
+
   return (
     <>
       <Navbar />

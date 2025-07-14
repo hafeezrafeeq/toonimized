@@ -17,7 +17,7 @@ function works() {
                     <img className='mt-25 relative -right-6' src="https://res.cloudinary.com/dapozvnbr/image/upload/v1600088828/Home/cat_eip0vj.png" alt="img" />
                 </div>
 
-                <div className='absolute z-10 top-1040 flex flex-col items-center justify-center'>
+                <div className='absolute z-10 top-1080 flex flex-col items-center justify-center'>
                     <h1 className="text-4xl font-bold raleway mt-80">...And Behind the Scenes?</h1>
                     <p className="text-1xl text-gray-900 font-bold text-center mt-4">All Hand Drawn ! No generic software! <br />
                         We use professional artists to hand-draw your portrait
@@ -37,7 +37,7 @@ function works() {
                    
                 <div className="halfCircle"> </div>
 
-                <div><img className='rotate-180 z-0 w-200 h-180 absolute top-1092 left-60' src="https://toonimized.netlify.app/static/media/neclace.116d1ed1.png" alt="img" /></div>
+                <div><img className='rotate-180 z-0 w-240 h-200 absolute top-1155 left-80' src="https://toonimized.netlify.app/static/media/neclace.116d1ed1.png" alt="img" /></div>
 
             </div>
 

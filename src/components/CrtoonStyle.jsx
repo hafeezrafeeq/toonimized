@@ -33,7 +33,7 @@ const CartoonStyle = () => {
             <div className="raleway text-stone-800 font-bold text-6xl w-160 pt-100">
                 <h1>Choose between popular cartoon styles</h1>
                 <div className="bg-stone-800 w-40 rounded-lg h-2 mt-4"></div>
-                <p className="text-stone-800 raleway text-lg md:text-xl font-bold pb-100">
+                <p className="text-stone-800 raleway text-lg md:text-xl font-bold mt-10 pb-100">
                     Curious About how the Customization is Made?
                 </p>
             </div>

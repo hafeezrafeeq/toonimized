@@ -21,7 +21,7 @@ body {
 }
 
 .gredient-nav {
-  background: linear-gradient(228.48deg, #bdb930 20.3%, #80f9c0 96.91%);
+  background: linear-gradient(228.48deg, #bdb8308b 296.91%, #80f9c0 20%);
 
 }
 
@@ -86,4 +86,14 @@ right:  -10vw;
   border-radius: 50rem;
   background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
   box-shadow: inset -10px -10px 40px hsla(0, 0%, 100%, .45), inset 8px 8px 25px rgba(0, 0, 0, .35);
+}
+
+.gallaryImg {
+    width: 12vw;
+    height: 11vw;
+    margin-top: 2vw;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 1vw;
+    background-color: #343434;
 }

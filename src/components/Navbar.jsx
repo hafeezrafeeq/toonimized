@@ -10,10 +10,10 @@ function Appbar() {
 
                     <nav>
                         <ul className="flex gap-10 raleway font-bold text-lg ">
-                            <Link to="/">Home</Link>
-                            <Link to="/gallery">Gallery</Link>
-                            <Link to="/articts">Articts</Link>
-                            <Link to="/faq">FAQ</Link>
+                            <Link className="text- hover:text-amber-200" to="/">Home</Link>
+                            <Link className="text- hover:text-amber-200" to="/gallery">Gallery</Link>
+                            <Link className="text- hover:text-amber-200" to="/articts">Articts</Link>
+                            <Link className="text- hover:text-amber-200" to="/faq">FAQ</Link>
                         </ul>
                     </nav>
                 </div>

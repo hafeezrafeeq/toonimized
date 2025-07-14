@@ -49,7 +49,8 @@ function Footer() {
         <p>© 2025 Make me Yellow. All rights reserved.</p>
         <div className="flex space-x-6 mt-2 md:mt-0">
           <a href="#" className="hover:text-white">@hafeea rafeeq</a>
-          <a href="#" className="hover:text-white">Privacy Policy</a>
+          <a href="#" className="hover:text-white">personal site</a>
+          
         </div>
       </div>
     </footer>
